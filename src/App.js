@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
+import Button from './components/Button';
 import FirstDay from './components/FirstDay';
 
 
@@ -8,18 +9,11 @@ class App extends React.Component{
     return(
       <Router>
         <div>
-          Quarantine Days
         </div>
       </Router>,
-      <Route>
-        {/* hello */}
-      </Route>,
-      <Link>
-      </Link>,
-      <FirstDay/>
-     
+      <FirstDay/>,
+      <Button/>
     )
-    
   }
   
 };

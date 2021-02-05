@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 class FirstDay extends React.Component{
     render () {
@@ -8,7 +8,6 @@ class FirstDay extends React.Component{
                 <div>
                     <p>Hello My Blog in React</p>
                 </div>
-
             </Router>
             
         )
