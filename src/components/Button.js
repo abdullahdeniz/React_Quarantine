@@ -7,7 +7,9 @@ class Button extends React.Component {
     render(){
         return(
             <div>
-                Hello
+                <button onclick="activateLasers()">
+                    Activer les lasers
+                </button>
             </div>
         )
     }

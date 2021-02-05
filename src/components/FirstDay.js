@@ -6,7 +6,8 @@ class FirstDay extends React.Component{
         return (
             <Router>
                 <div>
-                    <p>Hello My Blog in React</p>
+                    <h1>Hello My Blog in React</h1>
+                    
                 </div>
             </Router>
             
