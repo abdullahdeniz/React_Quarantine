@@ -7,7 +7,7 @@ class FirstDay extends React.Component{
             <Router>
                 <div>
                     <h1>Hello My Blog in React</h1>
-                    
+                    <p>I want do</p>
                 </div>
             </Router>
             
