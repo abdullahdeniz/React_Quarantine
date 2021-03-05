@@ -8,6 +8,30 @@ class FirstDay extends React.Component{
     render () {
         return (
             <Router>
+                <div className="header" style= {{display: "flex", flexDirection: "row", listStyleType: "none"}}>
+                    <nav class="nav-bar">
+                        <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Skill.html">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Contact.html">Contact</a>
+                        </li>
+                        </ul>
+                    </nav>
+                </div>
                 <div>
                     <h1>Hello My Blog in React</h1>
                     <p>I want do</p>
